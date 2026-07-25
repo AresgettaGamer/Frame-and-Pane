@@ -1,0 +1,1898 @@
+{
+  "format_version": "1.26.30",
+  "minecraft:block": {
+    "description": {
+      "identifier": "framepane:polished_diorite_vertical_window",
+      "states": {
+        "framepane:open": [
+          false,
+          true
+        ],
+        "framepane:vertical_connection": [
+          "none",
+          "up",
+          "down",
+          "both"
+        ],
+        "framepane:hinge": [
+          "right",
+          "left"
+        ],
+        "framepane:handle_position": [
+          "center",
+          "none",
+          "seam"
+        ],
+        "framepane:has_panel": [
+          false,
+          true
+        ]
+      },
+      "traits": {
+        "minecraft:placement_direction": {
+          "enabled_states": [
+            "minecraft:cardinal_direction"
+          ],
+          "y_rotation_offset": 180.0
+        }
+      },
+      "menu_category": {
+        "category": "construction",
+        "group": "framepane:group_vertical_windows"
+      }
+    },
+    "components": {
+      "minecraft:geometry": "geometry.framepane.oak_vertical_window.none.right.closed.center",
+      "minecraft:material_instances": {
+        "*": "frame",
+        "frame": {
+          "texture": "framepane_polished_diorite_frame",
+          "render_method": "alpha_test",
+          "ambient_occlusion": 1.0,
+          "face_dimming": true
+        },
+        "handle": {
+          "texture": "framepane_polished_diorite_handle",
+          "render_method": "alpha_test",
+          "ambient_occlusion": 1.0,
+          "face_dimming": true
+        },
+        "glass": {
+          "texture": "framepane_blank",
+          "render_method": "alpha_test",
+          "ambient_occlusion": 0.0,
+          "face_dimming": false
+        },
+        "blank": {
+          "texture": "framepane_blank",
+          "render_method": "alpha_test",
+          "ambient_occlusion": 0.0,
+          "face_dimming": false
+        }
+      },
+      "minecraft:item_visual": {
+        "geometry": "geometry.framepane.oak_vertical_window.none.right.closed.center",
+        "material_instances": {
+          "*": "frame",
+          "frame": {
+            "texture": "framepane_polished_diorite_frame",
+            "render_method": "alpha_test",
+            "ambient_occlusion": 1.0,
+            "face_dimming": true
+          },
+          "handle": {
+            "texture": "framepane_polished_diorite_handle",
+            "render_method": "alpha_test",
+            "ambient_occlusion": 1.0,
+            "face_dimming": true
+          },
+          "glass": {
+            "texture": "framepane_blank",
+            "render_method": "alpha_test",
+            "ambient_occlusion": 0.0,
+            "face_dimming": false
+          },
+          "blank": {
+            "texture": "framepane_blank",
+            "render_method": "alpha_test",
+            "ambient_occlusion": 0.0,
+            "face_dimming": false
+          }
+        }
+      },
+      "minecraft:collision_box": [
+        {
+          "origin": [
+            -8,
+            0,
+            -1.5
+          ],
+          "size": [
+            1,
+            16,
+            3
+          ]
+        },
+        {
+          "origin": [
+            7,
+            0,
+            -1.5
+          ],
+          "size": [
+            1,
+            16,
+            3
+          ]
+        },
+        {
+          "origin": [
+            -7,
+            0,
+            -1.5
+          ],
+          "size": [
+            14,
+            1,
+            3
+          ]
+        },
+        {
+          "origin": [
+            -7,
+            15,
+            -1.5
+          ],
+          "size": [
+            14,
+            1,
+            3
+          ]
+        }
+      ],
+      "minecraft:selection_box": {
+        "origin": [
+          -8,
+          0,
+          -1.5
+        ],
+        "size": [
+          16,
+          16,
+          3
+        ]
+      },
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 1.5
+      },
+      "minecraft:destructible_by_explosion": {
+        "explosion_resistance": 30
+      },
+      "minecraft:friction": 0.6,
+      "minecraft:light_dampening": 0,
+      "minecraft:map_color": "#C7C7C7",
+      "minecraft:loot": "loot_tables/blocks/polished_diorite_vertical_window.json",
+      "minecraft:liquid_detection": {
+        "detection_rules": [
+          {
+            "liquid_type": "water",
+            "can_contain_liquid": true,
+            "on_liquid_touches": "no_reaction",
+            "use_liquid_clipping": false
+          }
+        ]
+      },
+      "framepane:window_controller": {}
+    },
+    "permutations": [
+      {
+        "condition": "q.block_state('framepane:vertical_connection') == 'none' && q.block_state('framepane:hinge') == 'left' && q.block_state('framepane:open') == false && q.block_state('framepane:handle_position') == 'center'",
+        "components": {
+          "minecraft:geometry": "geometry.framepane.oak_vertical_window.none.left.closed.center",
+          "minecraft:collision_box": {
+            "origin": [
+              -8,
+              0,
+              -1.5
+            ],
+            "size": [
+              16,
+              16,
+              3
+            ]
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('framepane:vertical_connection') == 'none' && q.block_state('framepane:hinge') == 'left' && q.block_state('framepane:open') == false && q.block_state('framepane:handle_position') == 'none'",
+        "components": {
+          "minecraft:geometry": "geometry.framepane.oak_vertical_window.none.left.closed.none",
+          "minecraft:collision_box": {
+            "origin": [
+              -8,
+              0,
+              -1.5
+            ],
+            "size": [
+              16,
+              16,
+              3
+            ]
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('framepane:vertical_connection') == 'none' && q.block_state('framepane:hinge') == 'left' && q.block_state('framepane:open') == false && q.block_state('framepane:handle_position') == 'seam'",
+        "components": {
+          "minecraft:geometry": "geometry.framepane.oak_vertical_window.none.left.closed.seam",
+          "minecraft:collision_box": {
+            "origin": [
+              -8,
+              0,
+              -1.5
+            ],
+            "size": [
+              16,
+              16,
+              3
+            ]
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('framepane:vertical_connection') == 'none' && q.block_state('framepane:hinge') == 'left' && q.block_state('framepane:open') == true && q.block_state('framepane:handle_position') == 'center'",
+        "components": {
+          "minecraft:geometry": "geometry.framepane.oak_vertical_window.none.left.open.center",
+          "minecraft:collision_box": [
+            {
+              "origin": [
+                -8,
+                0,
+                -1.5
+              ],
+              "size": [
+                1,
+                16,
+                3
+              ]
+            },
+            {
+              "origin": [
+                7,
+                0,
+                -1.5
+              ],
+              "size": [
+                1,
+                16,
+                3
+              ]
+            },
+            {
+              "origin": [
+                -7,
+                0,
+                -1.5
+              ],
+              "size": [
+                14,
+                1,
+                3
+              ]
+            },
+            {
+              "origin": [
+                -7,
+                15,
+                -1.5
+              ],
+              "size": [
+                14,
+                1,
+                3
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "condition": "q.block_state('framepane:vertical_connection') == 'none' && q.block_state('framepane:hinge') == 'left' && q.block_state('framepane:open') == true && q.block_state('framepane:handle_position') == 'none'",
+        "components": {
+          "minecraft:geometry": "geometry.framepane.oak_vertical_window.none.left.open.none",
+          "minecraft:collision_box": [
+            {
+              "origin": [
+                -8,
+                0,
+                -1.5
+              ],
+              "size": [
+                1,
+                16,
+                3
+              ]
+            },
+            {
+              "origin": [
+                7,
+                0,
+                -1.5
+              ],
+              "size": [
+                1,
+                16,
+                3
+              ]
+            },
+            {
+              "origin": [
+                -7,
+                0,
+                -1.5
+              ],
+              "size": [
+                14,
+                1,
+                3
+              ]
+            },
+            {
+              "origin": [
+                -7,
+                15,
+                -1.5
+              ],
+              "size": [
+                14,
+                1,
+                3
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "condition": "q.block_state('framepane:vertical_connection') == 'none' && q.block_state('framepane:hinge') == 'left' && q.block_state('framepane:open') == true && q.block_state('framepane:handle_position') == 'seam'",
+        "components": {
+          "minecraft:geometry": "geometry.framepane.oak_vertical_window.none.left.open.seam",
+          "minecraft:collision_box": [
+            {
+              "origin": [
+                -8,
+                0,
+                -1.5
+              ],
+              "size": [
+                1,
+                16,
+                3
+              ]
+            },
+            {
+              "origin": [
+                7,
+                0,
+                -1.5
+              ],
+              "size": [
+                1,
+                16,
+                3
+              ]
+            },
+            {
+              "origin": [
+                -7,
+                0,
+                -1.5
+              ],
+              "size": [
+                14,
+                1,
+                3
+              ]
+            },
+            {
+              "origin": [
+                -7,
+                15,
+                -1.5
+              ],
+              "size": [
+                14,
+                1,
+                3
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "condition": "q.block_state('framepane:vertical_connection') == 'none' && q.block_state('framepane:hinge') == 'right' && q.block_state('framepane:open') == false && q.block_state('framepane:handle_position') == 'center'",
+        "components": {
+          "minecraft:geometry": "geometry.framepane.oak_vertical_window.none.right.closed.center",
+          "minecraft:collision_box": {
+            "origin": [
+              -8,
+              0,
+              -1.5
+            ],
+            "size": [
+              16,
+              16,
+              3
+            ]
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('framepane:vertical_connection') == 'none' && q.block_state('framepane:hinge') == 'right' && q.block_state('framepane:open') == false && q.block_state('framepane:handle_position') == 'none'",
+        "components": {
+          "minecraft:geometry": "geometry.framepane.oak_vertical_window.none.right.closed.none",
+          "minecraft:collision_box": {
+            "origin": [
+              -8,
+              0,
+              -1.5
+            ],
+            "size": [
+              16,
+              16,
+              3
+            ]
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('framepane:vertical_connection') == 'none' && q.block_state('framepane:hinge') == 'right' && q.block_state('framepane:open') == false && q.block_state('framepane:handle_position') == 'seam'",
+        "components": {
+          "minecraft:geometry": "geometry.framepane.oak_vertical_window.none.right.closed.seam",
+          "minecraft:collision_box": {
+            "origin": [
+              -8,
+              0,
+              -1.5
+            ],
+            "size": [
+              16,
+              16,
+              3
+            ]
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('framepane:vertical_connection') == 'none' && q.block_state('framepane:hinge') == 'right' && q.block_state('framepane:open') == true && q.block_state('framepane:handle_position') == 'center'",
+        "components": {
+          "minecraft:geometry": "geometry.framepane.oak_vertical_window.none.right.open.center",
+          "minecraft:collision_box": [
+            {
+              "origin": [
+                -8,
+                0,
+                -1.5
+              ],
+              "size": [
+                1,
+                16,
+                3
+              ]
+            },
+            {
+              "origin": [
+                7,
+                0,
+                -1.5
+              ],
+              "size": [
+                1,
+                16,
+                3
+              ]
+            },
+            {
+              "origin": [
+                -7,
+                0,
+                -1.5
+              ],
+              "size": [
+                14,
+                1,
+                3
+              ]
+            },
+            {
+              "origin": [
+                -7,
+                15,
+                -1.5
+              ],
+              "size": [
+                14,
+                1,
+                3
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "condition": "q.block_state('framepane:vertical_connection') == 'none' && q.block_state('framepane:hinge') == 'right' && q.block_state('framepane:open') == true && q.block_state('framepane:handle_position') == 'none'",
+        "components": {
+          "minecraft:geometry": "geometry.framepane.oak_vertical_window.none.right.open.none",
+          "minecraft:collision_box": [
+            {
+              "origin": [
+                -8,
+                0,
+                -1.5
+              ],
+              "size": [
+                1,
+                16,
+                3
+              ]
+            },
+            {
+              "origin": [
+                7,
+                0,
+                -1.5
+              ],
+              "size": [
+                1,
+                16,
+                3
+              ]
+            },
+            {
+              "origin": [
+                -7,
+                0,
+                -1.5
+              ],
+              "size": [
+                14,
+                1,
+                3
+              ]
+            },
+            {
+              "origin": [
+                -7,
+                15,
+                -1.5
+              ],
+              "size": [
+                14,
+                1,
+                3
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "condition": "q.block_state('framepane:vertical_connection') == 'none' && q.block_state('framepane:hinge') == 'right' && q.block_state('framepane:open') == true && q.block_state('framepane:handle_position') == 'seam'",
+        "components": {
+          "minecraft:geometry": "geometry.framepane.oak_vertical_window.none.right.open.seam",
+          "minecraft:collision_box": [
+            {
+              "origin": [
+                -8,
+                0,
+                -1.5
+              ],
+              "size": [
+                1,
+                16,
+                3
+              ]
+            },
+            {
+              "origin": [
+                7,
+                0,
+                -1.5
+              ],
+              "size": [
+                1,
+                16,
+                3
+              ]
+            },
+            {
+              "origin": [
+                -7,
+                0,
+                -1.5
+              ],
+              "size": [
+                14,
+                1,
+                3
+              ]
+            },
+            {
+              "origin": [
+                -7,
+                15,
+                -1.5
+              ],
+              "size": [
+                14,
+                1,
+                3
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "condition": "q.block_state('framepane:vertical_connection') == 'up' && q.block_state('framepane:hinge') == 'left' && q.block_state('framepane:open') == false && q.block_state('framepane:handle_position') == 'center'",
+        "components": {
+          "minecraft:geometry": "geometry.framepane.oak_vertical_window.up.left.closed.center",
+          "minecraft:collision_box": {
+            "origin": [
+              -8,
+              0,
+              -1.5
+            ],
+            "size": [
+              16,
+              16,
+              3
+            ]
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('framepane:vertical_connection') == 'up' && q.block_state('framepane:hinge') == 'left' && q.block_state('framepane:open') == false && q.block_state('framepane:handle_position') == 'none'",
+        "components": {
+          "minecraft:geometry": "geometry.framepane.oak_vertical_window.up.left.closed.none",
+          "minecraft:collision_box": {
+            "origin": [
+              -8,
+              0,
+              -1.5
+            ],
+            "size": [
+              16,
+              16,
+              3
+            ]
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('framepane:vertical_connection') == 'up' && q.block_state('framepane:hinge') == 'left' && q.block_state('framepane:open') == false && q.block_state('framepane:handle_position') == 'seam'",
+        "components": {
+          "minecraft:geometry": "geometry.framepane.oak_vertical_window.up.left.closed.seam",
+          "minecraft:collision_box": {
+            "origin": [
+              -8,
+              0,
+              -1.5
+            ],
+            "size": [
+              16,
+              16,
+              3
+            ]
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('framepane:vertical_connection') == 'up' && q.block_state('framepane:hinge') == 'left' && q.block_state('framepane:open') == true && q.block_state('framepane:handle_position') == 'center'",
+        "components": {
+          "minecraft:geometry": "geometry.framepane.oak_vertical_window.up.left.open.center",
+          "minecraft:collision_box": [
+            {
+              "origin": [
+                -8,
+                0,
+                -1.5
+              ],
+              "size": [
+                1,
+                16,
+                3
+              ]
+            },
+            {
+              "origin": [
+                7,
+                0,
+                -1.5
+              ],
+              "size": [
+                1,
+                16,
+                3
+              ]
+            },
+            {
+              "origin": [
+                -7,
+                0,
+                -1.5
+              ],
+              "size": [
+                14,
+                1,
+                3
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "condition": "q.block_state('framepane:vertical_connection') == 'up' && q.block_state('framepane:hinge') == 'left' && q.block_state('framepane:open') == true && q.block_state('framepane:handle_position') == 'none'",
+        "components": {
+          "minecraft:geometry": "geometry.framepane.oak_vertical_window.up.left.open.none",
+          "minecraft:collision_box": [
+            {
+              "origin": [
+                -8,
+                0,
+                -1.5
+              ],
+              "size": [
+                1,
+                16,
+                3
+              ]
+            },
+            {
+              "origin": [
+                7,
+                0,
+                -1.5
+              ],
+              "size": [
+                1,
+                16,
+                3
+              ]
+            },
+            {
+              "origin": [
+                -7,
+                0,
+                -1.5
+              ],
+              "size": [
+                14,
+                1,
+                3
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "condition": "q.block_state('framepane:vertical_connection') == 'up' && q.block_state('framepane:hinge') == 'left' && q.block_state('framepane:open') == true && q.block_state('framepane:handle_position') == 'seam'",
+        "components": {
+          "minecraft:geometry": "geometry.framepane.oak_vertical_window.up.left.open.seam",
+          "minecraft:collision_box": [
+            {
+              "origin": [
+                -8,
+                0,
+                -1.5
+              ],
+              "size": [
+                1,
+                16,
+                3
+              ]
+            },
+            {
+              "origin": [
+                7,
+                0,
+                -1.5
+              ],
+              "size": [
+                1,
+                16,
+                3
+              ]
+            },
+            {
+              "origin": [
+                -7,
+                0,
+                -1.5
+              ],
+              "size": [
+                14,
+                1,
+                3
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "condition": "q.block_state('framepane:vertical_connection') == 'up' && q.block_state('framepane:hinge') == 'right' && q.block_state('framepane:open') == false && q.block_state('framepane:handle_position') == 'center'",
+        "components": {
+          "minecraft:geometry": "geometry.framepane.oak_vertical_window.up.right.closed.center",
+          "minecraft:collision_box": {
+            "origin": [
+              -8,
+              0,
+              -1.5
+            ],
+            "size": [
+              16,
+              16,
+              3
+            ]
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('framepane:vertical_connection') == 'up' && q.block_state('framepane:hinge') == 'right' && q.block_state('framepane:open') == false && q.block_state('framepane:handle_position') == 'none'",
+        "components": {
+          "minecraft:geometry": "geometry.framepane.oak_vertical_window.up.right.closed.none",
+          "minecraft:collision_box": {
+            "origin": [
+              -8,
+              0,
+              -1.5
+            ],
+            "size": [
+              16,
+              16,
+              3
+            ]
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('framepane:vertical_connection') == 'up' && q.block_state('framepane:hinge') == 'right' && q.block_state('framepane:open') == false && q.block_state('framepane:handle_position') == 'seam'",
+        "components": {
+          "minecraft:geometry": "geometry.framepane.oak_vertical_window.up.right.closed.seam",
+          "minecraft:collision_box": {
+            "origin": [
+              -8,
+              0,
+              -1.5
+            ],
+            "size": [
+              16,
+              16,
+              3
+            ]
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('framepane:vertical_connection') == 'up' && q.block_state('framepane:hinge') == 'right' && q.block_state('framepane:open') == true && q.block_state('framepane:handle_position') == 'center'",
+        "components": {
+          "minecraft:geometry": "geometry.framepane.oak_vertical_window.up.right.open.center",
+          "minecraft:collision_box": [
+            {
+              "origin": [
+                -8,
+                0,
+                -1.5
+              ],
+              "size": [
+                1,
+                16,
+                3
+              ]
+            },
+            {
+              "origin": [
+                7,
+                0,
+                -1.5
+              ],
+              "size": [
+                1,
+                16,
+                3
+              ]
+            },
+            {
+              "origin": [
+                -7,
+                0,
+                -1.5
+              ],
+              "size": [
+                14,
+                1,
+                3
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "condition": "q.block_state('framepane:vertical_connection') == 'up' && q.block_state('framepane:hinge') == 'right' && q.block_state('framepane:open') == true && q.block_state('framepane:handle_position') == 'none'",
+        "components": {
+          "minecraft:geometry": "geometry.framepane.oak_vertical_window.up.right.open.none",
+          "minecraft:collision_box": [
+            {
+              "origin": [
+                -8,
+                0,
+                -1.5
+              ],
+              "size": [
+                1,
+                16,
+                3
+              ]
+            },
+            {
+              "origin": [
+                7,
+                0,
+                -1.5
+              ],
+              "size": [
+                1,
+                16,
+                3
+              ]
+            },
+            {
+              "origin": [
+                -7,
+                0,
+                -1.5
+              ],
+              "size": [
+                14,
+                1,
+                3
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "condition": "q.block_state('framepane:vertical_connection') == 'up' && q.block_state('framepane:hinge') == 'right' && q.block_state('framepane:open') == true && q.block_state('framepane:handle_position') == 'seam'",
+        "components": {
+          "minecraft:geometry": "geometry.framepane.oak_vertical_window.up.right.open.seam",
+          "minecraft:collision_box": [
+            {
+              "origin": [
+                -8,
+                0,
+                -1.5
+              ],
+              "size": [
+                1,
+                16,
+                3
+              ]
+            },
+            {
+              "origin": [
+                7,
+                0,
+                -1.5
+              ],
+              "size": [
+                1,
+                16,
+                3
+              ]
+            },
+            {
+              "origin": [
+                -7,
+                0,
+                -1.5
+              ],
+              "size": [
+                14,
+                1,
+                3
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "condition": "q.block_state('framepane:vertical_connection') == 'down' && q.block_state('framepane:hinge') == 'left' && q.block_state('framepane:open') == false && q.block_state('framepane:handle_position') == 'center'",
+        "components": {
+          "minecraft:geometry": "geometry.framepane.oak_vertical_window.down.left.closed.center",
+          "minecraft:collision_box": {
+            "origin": [
+              -8,
+              0,
+              -1.5
+            ],
+            "size": [
+              16,
+              16,
+              3
+            ]
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('framepane:vertical_connection') == 'down' && q.block_state('framepane:hinge') == 'left' && q.block_state('framepane:open') == false && q.block_state('framepane:handle_position') == 'none'",
+        "components": {
+          "minecraft:geometry": "geometry.framepane.oak_vertical_window.down.left.closed.none",
+          "minecraft:collision_box": {
+            "origin": [
+              -8,
+              0,
+              -1.5
+            ],
+            "size": [
+              16,
+              16,
+              3
+            ]
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('framepane:vertical_connection') == 'down' && q.block_state('framepane:hinge') == 'left' && q.block_state('framepane:open') == false && q.block_state('framepane:handle_position') == 'seam'",
+        "components": {
+          "minecraft:geometry": "geometry.framepane.oak_vertical_window.down.left.closed.seam",
+          "minecraft:collision_box": {
+            "origin": [
+              -8,
+              0,
+              -1.5
+            ],
+            "size": [
+              16,
+              16,
+              3
+            ]
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('framepane:vertical_connection') == 'down' && q.block_state('framepane:hinge') == 'left' && q.block_state('framepane:open') == true && q.block_state('framepane:handle_position') == 'center'",
+        "components": {
+          "minecraft:geometry": "geometry.framepane.oak_vertical_window.down.left.open.center",
+          "minecraft:collision_box": [
+            {
+              "origin": [
+                -8,
+                0,
+                -1.5
+              ],
+              "size": [
+                1,
+                16,
+                3
+              ]
+            },
+            {
+              "origin": [
+                7,
+                0,
+                -1.5
+              ],
+              "size": [
+                1,
+                16,
+                3
+              ]
+            },
+            {
+              "origin": [
+                -7,
+                15,
+                -1.5
+              ],
+              "size": [
+                14,
+                1,
+                3
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "condition": "q.block_state('framepane:vertical_connection') == 'down' && q.block_state('framepane:hinge') == 'left' && q.block_state('framepane:open') == true && q.block_state('framepane:handle_position') == 'none'",
+        "components": {
+          "minecraft:geometry": "geometry.framepane.oak_vertical_window.down.left.open.none",
+          "minecraft:collision_box": [
+            {
+              "origin": [
+                -8,
+                0,
+                -1.5
+              ],
+              "size": [
+                1,
+                16,
+                3
+              ]
+            },
+            {
+              "origin": [
+                7,
+                0,
+                -1.5
+              ],
+              "size": [
+                1,
+                16,
+                3
+              ]
+            },
+            {
+              "origin": [
+                -7,
+                15,
+                -1.5
+              ],
+              "size": [
+                14,
+                1,
+                3
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "condition": "q.block_state('framepane:vertical_connection') == 'down' && q.block_state('framepane:hinge') == 'left' && q.block_state('framepane:open') == true && q.block_state('framepane:handle_position') == 'seam'",
+        "components": {
+          "minecraft:geometry": "geometry.framepane.oak_vertical_window.down.left.open.seam",
+          "minecraft:collision_box": [
+            {
+              "origin": [
+                -8,
+                0,
+                -1.5
+              ],
+              "size": [
+                1,
+                16,
+                3
+              ]
+            },
+            {
+              "origin": [
+                7,
+                0,
+                -1.5
+              ],
+              "size": [
+                1,
+                16,
+                3
+              ]
+            },
+            {
+              "origin": [
+                -7,
+                15,
+                -1.5
+              ],
+              "size": [
+                14,
+                1,
+                3
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "condition": "q.block_state('framepane:vertical_connection') == 'down' && q.block_state('framepane:hinge') == 'right' && q.block_state('framepane:open') == false && q.block_state('framepane:handle_position') == 'center'",
+        "components": {
+          "minecraft:geometry": "geometry.framepane.oak_vertical_window.down.right.closed.center",
+          "minecraft:collision_box": {
+            "origin": [
+              -8,
+              0,
+              -1.5
+            ],
+            "size": [
+              16,
+              16,
+              3
+            ]
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('framepane:vertical_connection') == 'down' && q.block_state('framepane:hinge') == 'right' && q.block_state('framepane:open') == false && q.block_state('framepane:handle_position') == 'none'",
+        "components": {
+          "minecraft:geometry": "geometry.framepane.oak_vertical_window.down.right.closed.none",
+          "minecraft:collision_box": {
+            "origin": [
+              -8,
+              0,
+              -1.5
+            ],
+            "size": [
+              16,
+              16,
+              3
+            ]
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('framepane:vertical_connection') == 'down' && q.block_state('framepane:hinge') == 'right' && q.block_state('framepane:open') == false && q.block_state('framepane:handle_position') == 'seam'",
+        "components": {
+          "minecraft:geometry": "geometry.framepane.oak_vertical_window.down.right.closed.seam",
+          "minecraft:collision_box": {
+            "origin": [
+              -8,
+              0,
+              -1.5
+            ],
+            "size": [
+              16,
+              16,
+              3
+            ]
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('framepane:vertical_connection') == 'down' && q.block_state('framepane:hinge') == 'right' && q.block_state('framepane:open') == true && q.block_state('framepane:handle_position') == 'center'",
+        "components": {
+          "minecraft:geometry": "geometry.framepane.oak_vertical_window.down.right.open.center",
+          "minecraft:collision_box": [
+            {
+              "origin": [
+                -8,
+                0,
+                -1.5
+              ],
+              "size": [
+                1,
+                16,
+                3
+              ]
+            },
+            {
+              "origin": [
+                7,
+                0,
+                -1.5
+              ],
+              "size": [
+                1,
+                16,
+                3
+              ]
+            },
+            {
+              "origin": [
+                -7,
+                15,
+                -1.5
+              ],
+              "size": [
+                14,
+                1,
+                3
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "condition": "q.block_state('framepane:vertical_connection') == 'down' && q.block_state('framepane:hinge') == 'right' && q.block_state('framepane:open') == true && q.block_state('framepane:handle_position') == 'none'",
+        "components": {
+          "minecraft:geometry": "geometry.framepane.oak_vertical_window.down.right.open.none",
+          "minecraft:collision_box": [
+            {
+              "origin": [
+                -8,
+                0,
+                -1.5
+              ],
+              "size": [
+                1,
+                16,
+                3
+              ]
+            },
+            {
+              "origin": [
+                7,
+                0,
+                -1.5
+              ],
+              "size": [
+                1,
+                16,
+                3
+              ]
+            },
+            {
+              "origin": [
+                -7,
+                15,
+                -1.5
+              ],
+              "size": [
+                14,
+                1,
+                3
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "condition": "q.block_state('framepane:vertical_connection') == 'down' && q.block_state('framepane:hinge') == 'right' && q.block_state('framepane:open') == true && q.block_state('framepane:handle_position') == 'seam'",
+        "components": {
+          "minecraft:geometry": "geometry.framepane.oak_vertical_window.down.right.open.seam",
+          "minecraft:collision_box": [
+            {
+              "origin": [
+                -8,
+                0,
+                -1.5
+              ],
+              "size": [
+                1,
+                16,
+                3
+              ]
+            },
+            {
+              "origin": [
+                7,
+                0,
+                -1.5
+              ],
+              "size": [
+                1,
+                16,
+                3
+              ]
+            },
+            {
+              "origin": [
+                -7,
+                15,
+                -1.5
+              ],
+              "size": [
+                14,
+                1,
+                3
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "condition": "q.block_state('framepane:vertical_connection') == 'both' && q.block_state('framepane:hinge') == 'left' && q.block_state('framepane:open') == false && q.block_state('framepane:handle_position') == 'center'",
+        "components": {
+          "minecraft:geometry": "geometry.framepane.oak_vertical_window.both.left.closed.center",
+          "minecraft:collision_box": {
+            "origin": [
+              -8,
+              0,
+              -1.5
+            ],
+            "size": [
+              16,
+              16,
+              3
+            ]
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('framepane:vertical_connection') == 'both' && q.block_state('framepane:hinge') == 'left' && q.block_state('framepane:open') == false && q.block_state('framepane:handle_position') == 'none'",
+        "components": {
+          "minecraft:geometry": "geometry.framepane.oak_vertical_window.both.left.closed.none",
+          "minecraft:collision_box": {
+            "origin": [
+              -8,
+              0,
+              -1.5
+            ],
+            "size": [
+              16,
+              16,
+              3
+            ]
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('framepane:vertical_connection') == 'both' && q.block_state('framepane:hinge') == 'left' && q.block_state('framepane:open') == false && q.block_state('framepane:handle_position') == 'seam'",
+        "components": {
+          "minecraft:geometry": "geometry.framepane.oak_vertical_window.both.left.closed.seam",
+          "minecraft:collision_box": {
+            "origin": [
+              -8,
+              0,
+              -1.5
+            ],
+            "size": [
+              16,
+              16,
+              3
+            ]
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('framepane:vertical_connection') == 'both' && q.block_state('framepane:hinge') == 'left' && q.block_state('framepane:open') == true && q.block_state('framepane:handle_position') == 'center'",
+        "components": {
+          "minecraft:geometry": "geometry.framepane.oak_vertical_window.both.left.open.center",
+          "minecraft:collision_box": [
+            {
+              "origin": [
+                -8,
+                0,
+                -1.5
+              ],
+              "size": [
+                1,
+                16,
+                3
+              ]
+            },
+            {
+              "origin": [
+                7,
+                0,
+                -1.5
+              ],
+              "size": [
+                1,
+                16,
+                3
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "condition": "q.block_state('framepane:vertical_connection') == 'both' && q.block_state('framepane:hinge') == 'left' && q.block_state('framepane:open') == true && q.block_state('framepane:handle_position') == 'none'",
+        "components": {
+          "minecraft:geometry": "geometry.framepane.oak_vertical_window.both.left.open.none",
+          "minecraft:collision_box": [
+            {
+              "origin": [
+                -8,
+                0,
+                -1.5
+              ],
+              "size": [
+                1,
+                16,
+                3
+              ]
+            },
+            {
+              "origin": [
+                7,
+                0,
+                -1.5
+              ],
+              "size": [
+                1,
+                16,
+                3
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "condition": "q.block_state('framepane:vertical_connection') == 'both' && q.block_state('framepane:hinge') == 'left' && q.block_state('framepane:open') == true && q.block_state('framepane:handle_position') == 'seam'",
+        "components": {
+          "minecraft:geometry": "geometry.framepane.oak_vertical_window.both.left.open.seam",
+          "minecraft:collision_box": [
+            {
+              "origin": [
+                -8,
+                0,
+                -1.5
+              ],
+              "size": [
+                1,
+                16,
+                3
+              ]
+            },
+            {
+              "origin": [
+                7,
+                0,
+                -1.5
+              ],
+              "size": [
+                1,
+                16,
+                3
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "condition": "q.block_state('framepane:vertical_connection') == 'both' && q.block_state('framepane:hinge') == 'right' && q.block_state('framepane:open') == false && q.block_state('framepane:handle_position') == 'center'",
+        "components": {
+          "minecraft:geometry": "geometry.framepane.oak_vertical_window.both.right.closed.center",
+          "minecraft:collision_box": {
+            "origin": [
+              -8,
+              0,
+              -1.5
+            ],
+            "size": [
+              16,
+              16,
+              3
+            ]
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('framepane:vertical_connection') == 'both' && q.block_state('framepane:hinge') == 'right' && q.block_state('framepane:open') == false && q.block_state('framepane:handle_position') == 'none'",
+        "components": {
+          "minecraft:geometry": "geometry.framepane.oak_vertical_window.both.right.closed.none",
+          "minecraft:collision_box": {
+            "origin": [
+              -8,
+              0,
+              -1.5
+            ],
+            "size": [
+              16,
+              16,
+              3
+            ]
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('framepane:vertical_connection') == 'both' && q.block_state('framepane:hinge') == 'right' && q.block_state('framepane:open') == false && q.block_state('framepane:handle_position') == 'seam'",
+        "components": {
+          "minecraft:geometry": "geometry.framepane.oak_vertical_window.both.right.closed.seam",
+          "minecraft:collision_box": {
+            "origin": [
+              -8,
+              0,
+              -1.5
+            ],
+            "size": [
+              16,
+              16,
+              3
+            ]
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('framepane:vertical_connection') == 'both' && q.block_state('framepane:hinge') == 'right' && q.block_state('framepane:open') == true && q.block_state('framepane:handle_position') == 'center'",
+        "components": {
+          "minecraft:geometry": "geometry.framepane.oak_vertical_window.both.right.open.center",
+          "minecraft:collision_box": [
+            {
+              "origin": [
+                -8,
+                0,
+                -1.5
+              ],
+              "size": [
+                1,
+                16,
+                3
+              ]
+            },
+            {
+              "origin": [
+                7,
+                0,
+                -1.5
+              ],
+              "size": [
+                1,
+                16,
+                3
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "condition": "q.block_state('framepane:vertical_connection') == 'both' && q.block_state('framepane:hinge') == 'right' && q.block_state('framepane:open') == true && q.block_state('framepane:handle_position') == 'none'",
+        "components": {
+          "minecraft:geometry": "geometry.framepane.oak_vertical_window.both.right.open.none",
+          "minecraft:collision_box": [
+            {
+              "origin": [
+                -8,
+                0,
+                -1.5
+              ],
+              "size": [
+                1,
+                16,
+                3
+              ]
+            },
+            {
+              "origin": [
+                7,
+                0,
+                -1.5
+              ],
+              "size": [
+                1,
+                16,
+                3
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "condition": "q.block_state('framepane:vertical_connection') == 'both' && q.block_state('framepane:hinge') == 'right' && q.block_state('framepane:open') == true && q.block_state('framepane:handle_position') == 'seam'",
+        "components": {
+          "minecraft:geometry": "geometry.framepane.oak_vertical_window.both.right.open.seam",
+          "minecraft:collision_box": [
+            {
+              "origin": [
+                -8,
+                0,
+                -1.5
+              ],
+              "size": [
+                1,
+                16,
+                3
+              ]
+            },
+            {
+              "origin": [
+                7,
+                0,
+                -1.5
+              ],
+              "size": [
+                1,
+                16,
+                3
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "condition": "q.block_state('minecraft:cardinal_direction') == 'north'",
+        "components": {
+          "minecraft:transformation": {
+            "rotation": [
+              0,
+              0,
+              0
+            ]
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('minecraft:cardinal_direction') == 'east'",
+        "components": {
+          "minecraft:transformation": {
+            "rotation": [
+              0,
+              -90,
+              0
+            ]
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('minecraft:cardinal_direction') == 'south'",
+        "components": {
+          "minecraft:transformation": {
+            "rotation": [
+              0,
+              180,
+              0
+            ]
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('minecraft:cardinal_direction') == 'west'",
+        "components": {
+          "minecraft:transformation": {
+            "rotation": [
+              0,
+              90,
+              0
+            ]
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('framepane:has_panel') == false && q.block_state('framepane:vertical_connection') == 'none'",
+        "components": {
+          "minecraft:collision_box": [
+            {
+              "origin": [
+                -8,
+                0,
+                -1.5
+              ],
+              "size": [
+                1,
+                16,
+                3
+              ]
+            },
+            {
+              "origin": [
+                7,
+                0,
+                -1.5
+              ],
+              "size": [
+                1,
+                16,
+                3
+              ]
+            },
+            {
+              "origin": [
+                -7,
+                0,
+                -1.5
+              ],
+              "size": [
+                14,
+                1,
+                3
+              ]
+            },
+            {
+              "origin": [
+                -7,
+                15,
+                -1.5
+              ],
+              "size": [
+                14,
+                1,
+                3
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "condition": "q.block_state('framepane:has_panel') == false && q.block_state('framepane:vertical_connection') == 'up'",
+        "components": {
+          "minecraft:collision_box": [
+            {
+              "origin": [
+                -8,
+                0,
+                -1.5
+              ],
+              "size": [
+                1,
+                16,
+                3
+              ]
+            },
+            {
+              "origin": [
+                7,
+                0,
+                -1.5
+              ],
+              "size": [
+                1,
+                16,
+                3
+              ]
+            },
+            {
+              "origin": [
+                -7,
+                0,
+                -1.5
+              ],
+              "size": [
+                14,
+                1,
+                3
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "condition": "q.block_state('framepane:has_panel') == false && q.block_state('framepane:vertical_connection') == 'down'",
+        "components": {
+          "minecraft:collision_box": [
+            {
+              "origin": [
+                -8,
+                0,
+                -1.5
+              ],
+              "size": [
+                1,
+                16,
+                3
+              ]
+            },
+            {
+              "origin": [
+                7,
+                0,
+                -1.5
+              ],
+              "size": [
+                1,
+                16,
+                3
+              ]
+            },
+            {
+              "origin": [
+                -7,
+                15,
+                -1.5
+              ],
+              "size": [
+                14,
+                1,
+                3
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "condition": "q.block_state('framepane:has_panel') == false && q.block_state('framepane:vertical_connection') == 'both'",
+        "components": {
+          "minecraft:collision_box": [
+            {
+              "origin": [
+                -8,
+                0,
+                -1.5
+              ],
+              "size": [
+                1,
+                16,
+                3
+              ]
+            },
+            {
+              "origin": [
+                7,
+                0,
+                -1.5
+              ],
+              "size": [
+                1,
+                16,
+                3
+              ]
+            }
+          ]
+        }
+      }
+    ]
+  }
+}
