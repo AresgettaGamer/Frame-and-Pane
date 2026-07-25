@@ -2,7 +2,7 @@
   "format_version": "1.20.10",
   "minecraft:recipe_shapeless": {
     "description": {
-      "identifier": "framepane:acacia_fourpane_window_stonecutter"
+      "identifier": "framepane:acacia_vertical_window_stonecutter"
     },
     "tags": [
       "stonecutter"
@@ -15,7 +15,7 @@
       }
     ],
     "result": {
-      "item": "framepane:acacia_fourpane_window",
+      "item": "framepane:acacia_vertical_window",
       "count": 1
     },
     "unlock": [

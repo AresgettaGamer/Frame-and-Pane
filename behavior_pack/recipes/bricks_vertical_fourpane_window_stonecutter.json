@@ -2,7 +2,7 @@
   "format_version": "1.20.10",
   "minecraft:recipe_shapeless": {
     "description": {
-      "identifier": "framepane:acacia_fourpane_window_stonecutter"
+      "identifier": "framepane:bricks_vertical_fourpane_window_stonecutter"
     },
     "tags": [
       "stonecutter"
@@ -10,17 +10,17 @@
     "priority": 0,
     "ingredients": [
       {
-        "item": "minecraft:acacia_planks",
+        "item": "minecraft:brick_block",
         "count": 1
       }
     ],
     "result": {
-      "item": "framepane:acacia_fourpane_window",
+      "item": "framepane:bricks_vertical_fourpane_window",
       "count": 1
     },
     "unlock": [
       {
-        "item": "minecraft:acacia_planks"
+        "item": "minecraft:brick_block"
       }
     ]
   }
