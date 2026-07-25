@@ -1,0 +1,422 @@
+{
+  "format_version": "1.26.30",
+  "minecraft:block": {
+    "description": {
+      "identifier": "framepane:spruce_window",
+      "states": {
+        "framepane:open": [
+          false,
+          true
+        ],
+        "framepane:hinge": [
+          "right",
+          "left"
+        ],
+        "framepane:has_panel": [
+          false,
+          true
+        ]
+      },
+      "traits": {
+        "minecraft:placement_direction": {
+          "enabled_states": [
+            "minecraft:cardinal_direction"
+          ],
+          "y_rotation_offset": 180.0
+        }
+      },
+      "menu_category": {
+        "category": "construction",
+        "group": "framepane:group_windows"
+      }
+    },
+    "components": {
+      "minecraft:geometry": "geometry.framepane.oak_window.right.closed",
+      "minecraft:material_instances": {
+        "*": "frame",
+        "frame": {
+          "texture": "framepane_spruce_frame",
+          "render_method": "alpha_test",
+          "ambient_occlusion": 1.0,
+          "face_dimming": true
+        },
+        "handle": {
+          "texture": "framepane_spruce_handle",
+          "render_method": "alpha_test",
+          "ambient_occlusion": 1.0,
+          "face_dimming": true
+        },
+        "glass": {
+          "texture": "framepane_blank",
+          "render_method": "alpha_test",
+          "ambient_occlusion": 0.0,
+          "face_dimming": false
+        }
+      },
+      "minecraft:item_visual": {
+        "geometry": "geometry.framepane.oak_window.right.closed",
+        "material_instances": {
+          "*": "frame",
+          "frame": {
+            "texture": "framepane_spruce_frame",
+            "render_method": "alpha_test",
+            "ambient_occlusion": 1.0,
+            "face_dimming": true
+          },
+          "handle": {
+            "texture": "framepane_spruce_handle",
+            "render_method": "alpha_test",
+            "ambient_occlusion": 1.0,
+            "face_dimming": true
+          },
+          "glass": {
+            "texture": "framepane_blank",
+            "render_method": "alpha_test",
+            "ambient_occlusion": 0.0,
+            "face_dimming": false
+          }
+        }
+      },
+      "minecraft:collision_box": [
+        {
+          "origin": [
+            -8,
+            0,
+            -1.5
+          ],
+          "size": [
+            16,
+            1,
+            3
+          ]
+        },
+        {
+          "origin": [
+            -8,
+            15,
+            -1.5
+          ],
+          "size": [
+            16,
+            1,
+            3
+          ]
+        },
+        {
+          "origin": [
+            -8,
+            1,
+            -1.5
+          ],
+          "size": [
+            1,
+            14,
+            3
+          ]
+        },
+        {
+          "origin": [
+            7,
+            1,
+            -1.5
+          ],
+          "size": [
+            1,
+            14,
+            3
+          ]
+        }
+      ],
+      "minecraft:selection_box": {
+        "origin": [
+          -8,
+          0,
+          -1.5
+        ],
+        "size": [
+          16,
+          16,
+          3
+        ]
+      },
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 0.8
+      },
+      "minecraft:destructible_by_explosion": {
+        "explosion_resistance": 15
+      },
+      "minecraft:friction": 0.6,
+      "minecraft:flammable": {
+        "catch_chance_modifier": 5,
+        "destroy_chance_modifier": 20
+      },
+      "minecraft:light_dampening": 0,
+      "minecraft:map_color": "#6B4B2A",
+      "minecraft:loot": "loot_tables/blocks/spruce_window.json",
+      "minecraft:liquid_detection": {
+        "detection_rules": [
+          {
+            "liquid_type": "water",
+            "can_contain_liquid": true,
+            "on_liquid_touches": "no_reaction",
+            "use_liquid_clipping": false
+          }
+        ]
+      },
+      "framepane:window_controller": {}
+    },
+    "permutations": [
+      {
+        "condition": "q.block_state('framepane:hinge') == 'left' && q.block_state('framepane:open') == false",
+        "components": {
+          "minecraft:geometry": "geometry.framepane.oak_window.left.closed",
+          "minecraft:collision_box": {
+            "origin": [
+              -8,
+              0,
+              -1.5
+            ],
+            "size": [
+              16,
+              16,
+              3
+            ]
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('framepane:hinge') == 'left' && q.block_state('framepane:open') == true",
+        "components": {
+          "minecraft:geometry": "geometry.framepane.oak_window.left.open",
+          "minecraft:collision_box": [
+            {
+              "origin": [
+                -8,
+                0,
+                -1.5
+              ],
+              "size": [
+                16,
+                1,
+                3
+              ]
+            },
+            {
+              "origin": [
+                -8,
+                15,
+                -1.5
+              ],
+              "size": [
+                16,
+                1,
+                3
+              ]
+            },
+            {
+              "origin": [
+                -8,
+                1,
+                -1.5
+              ],
+              "size": [
+                1,
+                14,
+                3
+              ]
+            },
+            {
+              "origin": [
+                7,
+                1,
+                -1.5
+              ],
+              "size": [
+                1,
+                14,
+                3
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "condition": "q.block_state('framepane:hinge') == 'right' && q.block_state('framepane:open') == false",
+        "components": {
+          "minecraft:geometry": "geometry.framepane.oak_window.right.closed",
+          "minecraft:collision_box": {
+            "origin": [
+              -8,
+              0,
+              -1.5
+            ],
+            "size": [
+              16,
+              16,
+              3
+            ]
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('framepane:hinge') == 'right' && q.block_state('framepane:open') == true",
+        "components": {
+          "minecraft:geometry": "geometry.framepane.oak_window.right.open",
+          "minecraft:collision_box": [
+            {
+              "origin": [
+                -8,
+                0,
+                -1.5
+              ],
+              "size": [
+                16,
+                1,
+                3
+              ]
+            },
+            {
+              "origin": [
+                -8,
+                15,
+                -1.5
+              ],
+              "size": [
+                16,
+                1,
+                3
+              ]
+            },
+            {
+              "origin": [
+                -8,
+                1,
+                -1.5
+              ],
+              "size": [
+                1,
+                14,
+                3
+              ]
+            },
+            {
+              "origin": [
+                7,
+                1,
+                -1.5
+              ],
+              "size": [
+                1,
+                14,
+                3
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "condition": "q.block_state('minecraft:cardinal_direction') == 'north'",
+        "components": {
+          "minecraft:transformation": {
+            "rotation": [
+              0,
+              0,
+              0
+            ]
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('minecraft:cardinal_direction') == 'east'",
+        "components": {
+          "minecraft:transformation": {
+            "rotation": [
+              0,
+              -90,
+              0
+            ]
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('minecraft:cardinal_direction') == 'south'",
+        "components": {
+          "minecraft:transformation": {
+            "rotation": [
+              0,
+              180,
+              0
+            ]
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('minecraft:cardinal_direction') == 'west'",
+        "components": {
+          "minecraft:transformation": {
+            "rotation": [
+              0,
+              90,
+              0
+            ]
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('framepane:has_panel') == false",
+        "components": {
+          "minecraft:collision_box": [
+            {
+              "origin": [
+                -8,
+                0,
+                -1.5
+              ],
+              "size": [
+                16,
+                1,
+                3
+              ]
+            },
+            {
+              "origin": [
+                -8,
+                15,
+                -1.5
+              ],
+              "size": [
+                16,
+                1,
+                3
+              ]
+            },
+            {
+              "origin": [
+                -8,
+                1,
+                -1.5
+              ],
+              "size": [
+                1,
+                14,
+                3
+              ]
+            },
+            {
+              "origin": [
+                7,
+                1,
+                -1.5
+              ],
+              "size": [
+                1,
+                14,
+                3
+              ]
+            }
+          ]
+        }
+      }
+    ]
+  }
+}
