@@ -1,0 +1,14 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "framepane:mangrove_vertical_window",
+          "weight": 1
+        }
+      ]
+    }
+  ]
+}

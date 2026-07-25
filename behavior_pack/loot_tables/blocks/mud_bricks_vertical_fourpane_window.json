@@ -1,0 +1,14 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "framepane:mud_bricks_vertical_fourpane_window",
+          "weight": 1
+        }
+      ]
+    }
+  ]
+}
