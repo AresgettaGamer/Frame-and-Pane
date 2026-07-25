@@ -1,0 +1,14 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "framepane:red_nether_bricks_fourpane_window",
+          "weight": 1
+        }
+      ]
+    }
+  ]
+}
