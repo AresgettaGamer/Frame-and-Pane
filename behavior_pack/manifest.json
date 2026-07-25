@@ -1,1 +1,60 @@
-
+{
+  "format_version": 2,
+  "header": {
+    "name": "Frame & Pane BP — Release v1.0.0",
+    "description": "Functional window frames with universal clear and colored glass panels.",
+    "uuid": "3e2fe0e5-a071-49fb-8cd8-5781fb86aeaa",
+    "version": [
+      1,
+      0,
+      0
+    ],
+    "min_engine_version": [
+      1,
+      26,
+      30
+    ]
+  },
+  "modules": [
+    {
+      "type": "data",
+      "uuid": "1824751d-d0fd-4d14-a420-7cdbeb0bb20f",
+      "version": [
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "script",
+      "language": "javascript",
+      "entry": "scripts/main.js",
+      "uuid": "49d35c6a-380e-4820-8249-4f352f24fd84",
+      "version": [
+        1,
+        0,
+        0
+      ]
+    }
+  ],
+  "dependencies": [
+    {
+      "uuid": "09c7327f-4441-4925-a99f-2b0e134e9ec2",
+      "version": [
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "module_name": "@minecraft/server",
+      "version": "2.8.0"
+    }
+  ],
+  "metadata": {
+    "authors": [
+      "AresgettaYT"
+    ],
+    "product_type": "addon"
+  }
+}
