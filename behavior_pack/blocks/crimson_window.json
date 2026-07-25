@@ -2,7 +2,7 @@
   "format_version": "1.26.30",
   "minecraft:block": {
     "description": {
-      "identifier": "framepane:acacia_fourpane_window",
+      "identifier": "framepane:crimson_window",
       "states": {
         "framepane:open": [
           false,
@@ -27,21 +27,21 @@
       },
       "menu_category": {
         "category": "construction",
-        "group": "framepane:group_fourpane_windows"
+        "group": "framepane:group_windows"
       }
     },
     "components": {
-      "minecraft:geometry": "geometry.framepane.oak_fourpane_window.right.closed",
+      "minecraft:geometry": "geometry.framepane.oak_window.right.closed",
       "minecraft:material_instances": {
         "*": "frame",
         "frame": {
-          "texture": "framepane_acacia_frame",
+          "texture": "framepane_crimson_frame",
           "render_method": "alpha_test",
           "ambient_occlusion": 1.0,
           "face_dimming": true
         },
         "handle": {
-          "texture": "framepane_acacia_handle",
+          "texture": "framepane_crimson_handle",
           "render_method": "alpha_test",
           "ambient_occlusion": 1.0,
           "face_dimming": true
@@ -54,17 +54,17 @@
         }
       },
       "minecraft:item_visual": {
-        "geometry": "geometry.framepane.oak_fourpane_window.right.closed",
+        "geometry": "geometry.framepane.oak_window.right.closed",
         "material_instances": {
           "*": "frame",
           "frame": {
-            "texture": "framepane_acacia_frame",
+            "texture": "framepane_crimson_frame",
             "render_method": "alpha_test",
             "ambient_occlusion": 1.0,
             "face_dimming": true
           },
           "handle": {
-            "texture": "framepane_acacia_handle",
+            "texture": "framepane_crimson_handle",
             "render_method": "alpha_test",
             "ambient_occlusion": 1.0,
             "face_dimming": true
@@ -146,13 +146,9 @@
         "explosion_resistance": 15
       },
       "minecraft:friction": 0.6,
-      "minecraft:flammable": {
-        "catch_chance_modifier": 5,
-        "destroy_chance_modifier": 20
-      },
       "minecraft:light_dampening": 0,
-      "minecraft:map_color": "#B85F3C",
-      "minecraft:loot": "loot_tables/blocks/acacia_fourpane_window.json",
+      "minecraft:map_color": "#7E304E",
+      "minecraft:loot": "loot_tables/blocks/crimson_window.json",
       "minecraft:liquid_detection": {
         "detection_rules": [
           {
@@ -169,7 +165,7 @@
       {
         "condition": "q.block_state('framepane:hinge') == 'left' && q.block_state('framepane:open') == false",
         "components": {
-          "minecraft:geometry": "geometry.framepane.oak_fourpane_window.left.closed",
+          "minecraft:geometry": "geometry.framepane.oak_window.left.closed",
           "minecraft:collision_box": {
             "origin": [
               -8,
@@ -187,7 +183,7 @@
       {
         "condition": "q.block_state('framepane:hinge') == 'left' && q.block_state('framepane:open') == true",
         "components": {
-          "minecraft:geometry": "geometry.framepane.oak_fourpane_window.left.open",
+          "minecraft:geometry": "geometry.framepane.oak_window.left.open",
           "minecraft:collision_box": [
             {
               "origin": [
@@ -243,7 +239,7 @@
       {
         "condition": "q.block_state('framepane:hinge') == 'right' && q.block_state('framepane:open') == false",
         "components": {
-          "minecraft:geometry": "geometry.framepane.oak_fourpane_window.right.closed",
+          "minecraft:geometry": "geometry.framepane.oak_window.right.closed",
           "minecraft:collision_box": {
             "origin": [
               -8,
@@ -261,7 +257,7 @@
       {
         "condition": "q.block_state('framepane:hinge') == 'right' && q.block_state('framepane:open') == true",
         "components": {
-          "minecraft:geometry": "geometry.framepane.oak_fourpane_window.right.open",
+          "minecraft:geometry": "geometry.framepane.oak_window.right.open",
           "minecraft:collision_box": [
             {
               "origin": [
