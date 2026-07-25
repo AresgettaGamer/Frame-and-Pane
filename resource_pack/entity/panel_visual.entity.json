@@ -1,0 +1,75 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "framepane:panel_visual",
+      "materials": {
+        "default": "entity_alphablend"
+      },
+      "textures": {
+        "c0": "textures/blocks/glass",
+        "c1": "textures/blocks/glass_white",
+        "c2": "textures/blocks/glass_orange",
+        "c3": "textures/blocks/glass_magenta",
+        "c4": "textures/blocks/glass_light_blue",
+        "c5": "textures/blocks/glass_yellow",
+        "c6": "textures/blocks/glass_lime",
+        "c7": "textures/blocks/glass_pink",
+        "c8": "textures/blocks/glass_gray",
+        "c9": "textures/blocks/glass_silver",
+        "c10": "textures/blocks/glass_cyan",
+        "c11": "textures/blocks/glass_purple",
+        "c12": "textures/blocks/glass_blue",
+        "c13": "textures/blocks/glass_brown",
+        "c14": "textures/blocks/glass_green",
+        "c15": "textures/blocks/glass_red",
+        "c16": "textures/blocks/glass_black"
+      },
+      "geometry": {
+        "v0": "geometry.framepane.panel_visual.0",
+        "v1": "geometry.framepane.panel_visual.1",
+        "v2": "geometry.framepane.panel_visual.2",
+        "v3": "geometry.framepane.panel_visual.3",
+        "v4": "geometry.framepane.panel_visual.4",
+        "v5": "geometry.framepane.panel_visual.5",
+        "v6": "geometry.framepane.panel_visual.6",
+        "v7": "geometry.framepane.panel_visual.7",
+        "v8": "geometry.framepane.panel_visual.8",
+        "v9": "geometry.framepane.panel_visual.9",
+        "v10": "geometry.framepane.panel_visual.10",
+        "v11": "geometry.framepane.panel_visual.11",
+        "v12": "geometry.framepane.panel_visual.12",
+        "v13": "geometry.framepane.panel_visual.13",
+        "v14": "geometry.framepane.panel_visual.14",
+        "v15": "geometry.framepane.panel_visual.15",
+        "v16": "geometry.framepane.panel_visual.16",
+        "v17": "geometry.framepane.panel_visual.17",
+        "v18": "geometry.framepane.panel_visual.18",
+        "v19": "geometry.framepane.panel_visual.19",
+        "v20": "geometry.framepane.panel_visual.20",
+        "v21": "geometry.framepane.panel_visual.21",
+        "v22": "geometry.framepane.panel_visual.22",
+        "v23": "geometry.framepane.panel_visual.23",
+        "v24": "geometry.framepane.panel_visual.24",
+        "v25": "geometry.framepane.panel_visual.25",
+        "v26": "geometry.framepane.panel_visual.26",
+        "v27": "geometry.framepane.panel_visual.27",
+        "v28": "geometry.framepane.panel_visual.28",
+        "v29": "geometry.framepane.panel_visual.29",
+        "v30": "geometry.framepane.panel_visual.30",
+        "v31": "geometry.framepane.panel_visual.31",
+        "v32": "geometry.framepane.panel_visual.32",
+        "v33": "geometry.framepane.panel_visual.33",
+        "v34": "geometry.framepane.panel_visual.34",
+        "v35": "geometry.framepane.panel_visual.35",
+        "v36": "geometry.framepane.panel_visual.36",
+        "v37": "geometry.framepane.panel_visual.37",
+        "v38": "geometry.framepane.panel_visual.38",
+        "v39": "geometry.framepane.panel_visual.39"
+      },
+      "render_controllers": [
+        "controller.render.framepane_panel_visual"
+      ]
+    }
+  }
+}

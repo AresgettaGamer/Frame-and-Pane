@@ -1,0 +1,83 @@
+{
+  "format_version": "1.8.0",
+  "render_controllers": {
+    "controller.render.framepane_panel_visual": {
+      "arrays": {
+        "geometries": {
+          "Array.panel_geometries": [
+            "Geometry.v0",
+            "Geometry.v1",
+            "Geometry.v2",
+            "Geometry.v3",
+            "Geometry.v4",
+            "Geometry.v5",
+            "Geometry.v6",
+            "Geometry.v7",
+            "Geometry.v8",
+            "Geometry.v9",
+            "Geometry.v10",
+            "Geometry.v11",
+            "Geometry.v12",
+            "Geometry.v13",
+            "Geometry.v14",
+            "Geometry.v15",
+            "Geometry.v16",
+            "Geometry.v17",
+            "Geometry.v18",
+            "Geometry.v19",
+            "Geometry.v20",
+            "Geometry.v21",
+            "Geometry.v22",
+            "Geometry.v23",
+            "Geometry.v24",
+            "Geometry.v25",
+            "Geometry.v26",
+            "Geometry.v27",
+            "Geometry.v28",
+            "Geometry.v29",
+            "Geometry.v30",
+            "Geometry.v31",
+            "Geometry.v32",
+            "Geometry.v33",
+            "Geometry.v34",
+            "Geometry.v35",
+            "Geometry.v36",
+            "Geometry.v37",
+            "Geometry.v38",
+            "Geometry.v39"
+          ]
+        },
+        "textures": {
+          "Array.panel_textures": [
+            "Texture.c0",
+            "Texture.c1",
+            "Texture.c2",
+            "Texture.c3",
+            "Texture.c4",
+            "Texture.c5",
+            "Texture.c6",
+            "Texture.c7",
+            "Texture.c8",
+            "Texture.c9",
+            "Texture.c10",
+            "Texture.c11",
+            "Texture.c12",
+            "Texture.c13",
+            "Texture.c14",
+            "Texture.c15",
+            "Texture.c16"
+          ]
+        }
+      },
+      "geometry": "Array.panel_geometries[q.property('framepane:panel_visual')]",
+      "materials": [
+        {
+          "*": "Material.default"
+        }
+      ],
+      "textures": [
+        "Array.panel_textures[q.property('framepane:panel_color')]"
+      ]
+    }
+  }
+}

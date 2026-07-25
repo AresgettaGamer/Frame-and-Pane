@@ -1,0 +1,356 @@
+{
+  "resource_pack_name": "Frame & Pane",
+  "texture_name": "atlas.terrain",
+  "padding": 8,
+  "num_mip_levels": 4,
+  "texture_data": {
+    "framepane_vanilla_glass": {
+      "textures": "textures/blocks/glass"
+    },
+    "framepane_blank": {
+      "textures": "textures/blocks/framepane_blank"
+    },
+    "framepane_oak_frame": {
+      "textures": "textures/blocks/stripped_oak_log"
+    },
+    "framepane_oak_handle": {
+      "textures": "textures/blocks/log_oak"
+    },
+    "framepane_spruce_frame": {
+      "textures": "textures/blocks/stripped_spruce_log"
+    },
+    "framepane_spruce_handle": {
+      "textures": "textures/blocks/log_spruce"
+    },
+    "framepane_birch_frame": {
+      "textures": "textures/blocks/stripped_birch_log"
+    },
+    "framepane_birch_handle": {
+      "textures": "textures/blocks/log_birch"
+    },
+    "framepane_jungle_frame": {
+      "textures": "textures/blocks/stripped_jungle_log"
+    },
+    "framepane_jungle_handle": {
+      "textures": "textures/blocks/log_jungle"
+    },
+    "framepane_acacia_frame": {
+      "textures": "textures/blocks/stripped_acacia_log"
+    },
+    "framepane_acacia_handle": {
+      "textures": "textures/blocks/log_acacia"
+    },
+    "framepane_dark_oak_frame": {
+      "textures": "textures/blocks/stripped_dark_oak_log"
+    },
+    "framepane_dark_oak_handle": {
+      "textures": "textures/blocks/log_big_oak"
+    },
+    "framepane_mangrove_frame": {
+      "textures": "textures/blocks/stripped_mangrove_log_side"
+    },
+    "framepane_mangrove_handle": {
+      "textures": "textures/blocks/mangrove_log_side"
+    },
+    "framepane_cherry_frame": {
+      "textures": "textures/blocks/stripped_cherry_log_side"
+    },
+    "framepane_cherry_handle": {
+      "textures": "textures/blocks/cherry_log_side"
+    },
+    "framepane_pale_oak_frame": {
+      "textures": "textures/blocks/stripped_pale_oak_log_side"
+    },
+    "framepane_pale_oak_handle": {
+      "textures": "textures/blocks/pale_oak_log_side"
+    },
+    "framepane_bamboo_frame": {
+      "textures": "textures/blocks/stripped_bamboo_block"
+    },
+    "framepane_bamboo_handle": {
+      "textures": "textures/blocks/bamboo_block"
+    },
+    "framepane_crimson_frame": {
+      "textures": "textures/blocks/huge_fungus/stripped_crimson_stem_side"
+    },
+    "framepane_crimson_handle": {
+      "textures": "textures/blocks/huge_fungus/crimson_stem_side"
+    },
+    "framepane_warped_frame": {
+      "textures": "textures/blocks/huge_fungus/stripped_warped_stem_side"
+    },
+    "framepane_warped_handle": {
+      "textures": "textures/blocks/huge_fungus/warped_stem_side"
+    },
+    "framepane_stone_frame": {
+      "textures": "textures/blocks/stone"
+    },
+    "framepane_stone_handle": {
+      "textures": "textures/blocks/stone"
+    },
+    "framepane_smooth_stone_frame": {
+      "textures": "textures/blocks/stone_slab_top"
+    },
+    "framepane_smooth_stone_handle": {
+      "textures": "textures/blocks/stone_slab_top"
+    },
+    "framepane_cobblestone_frame": {
+      "textures": "textures/blocks/cobblestone"
+    },
+    "framepane_cobblestone_handle": {
+      "textures": "textures/blocks/cobblestone"
+    },
+    "framepane_mossy_cobblestone_frame": {
+      "textures": "textures/blocks/cobblestone_mossy"
+    },
+    "framepane_mossy_cobblestone_handle": {
+      "textures": "textures/blocks/cobblestone_mossy"
+    },
+    "framepane_stone_bricks_frame": {
+      "textures": "textures/blocks/stonebrick"
+    },
+    "framepane_stone_bricks_handle": {
+      "textures": "textures/blocks/stonebrick"
+    },
+    "framepane_mossy_stone_bricks_frame": {
+      "textures": "textures/blocks/stonebrick_mossy"
+    },
+    "framepane_mossy_stone_bricks_handle": {
+      "textures": "textures/blocks/stonebrick_mossy"
+    },
+    "framepane_granite_frame": {
+      "textures": "textures/blocks/stone_granite"
+    },
+    "framepane_granite_handle": {
+      "textures": "textures/blocks/stone_granite"
+    },
+    "framepane_polished_granite_frame": {
+      "textures": "textures/blocks/stone_granite_smooth"
+    },
+    "framepane_polished_granite_handle": {
+      "textures": "textures/blocks/stone_granite_smooth"
+    },
+    "framepane_diorite_frame": {
+      "textures": "textures/blocks/stone_diorite"
+    },
+    "framepane_diorite_handle": {
+      "textures": "textures/blocks/stone_diorite"
+    },
+    "framepane_polished_diorite_frame": {
+      "textures": "textures/blocks/stone_diorite_smooth"
+    },
+    "framepane_polished_diorite_handle": {
+      "textures": "textures/blocks/stone_diorite_smooth"
+    },
+    "framepane_andesite_frame": {
+      "textures": "textures/blocks/stone_andesite"
+    },
+    "framepane_andesite_handle": {
+      "textures": "textures/blocks/stone_andesite"
+    },
+    "framepane_polished_andesite_frame": {
+      "textures": "textures/blocks/stone_andesite_smooth"
+    },
+    "framepane_polished_andesite_handle": {
+      "textures": "textures/blocks/stone_andesite_smooth"
+    },
+    "framepane_deepslate_frame": {
+      "textures": "textures/blocks/deepslate/deepslate"
+    },
+    "framepane_deepslate_handle": {
+      "textures": "textures/blocks/deepslate/deepslate"
+    },
+    "framepane_cobbled_deepslate_frame": {
+      "textures": "textures/blocks/deepslate/cobbled_deepslate"
+    },
+    "framepane_cobbled_deepslate_handle": {
+      "textures": "textures/blocks/deepslate/cobbled_deepslate"
+    },
+    "framepane_polished_deepslate_frame": {
+      "textures": "textures/blocks/deepslate/polished_deepslate"
+    },
+    "framepane_polished_deepslate_handle": {
+      "textures": "textures/blocks/deepslate/polished_deepslate"
+    },
+    "framepane_deepslate_bricks_frame": {
+      "textures": "textures/blocks/deepslate/deepslate_bricks"
+    },
+    "framepane_deepslate_bricks_handle": {
+      "textures": "textures/blocks/deepslate/deepslate_bricks"
+    },
+    "framepane_deepslate_tiles_frame": {
+      "textures": "textures/blocks/deepslate/deepslate_tiles"
+    },
+    "framepane_deepslate_tiles_handle": {
+      "textures": "textures/blocks/deepslate/deepslate_tiles"
+    },
+    "framepane_tuff_frame": {
+      "textures": "textures/blocks/tuff"
+    },
+    "framepane_tuff_handle": {
+      "textures": "textures/blocks/tuff"
+    },
+    "framepane_polished_tuff_frame": {
+      "textures": "textures/blocks/polished_tuff"
+    },
+    "framepane_polished_tuff_handle": {
+      "textures": "textures/blocks/polished_tuff"
+    },
+    "framepane_tuff_bricks_frame": {
+      "textures": "textures/blocks/tuff_bricks"
+    },
+    "framepane_tuff_bricks_handle": {
+      "textures": "textures/blocks/tuff_bricks"
+    },
+    "framepane_calcite_frame": {
+      "textures": "textures/blocks/calcite"
+    },
+    "framepane_calcite_handle": {
+      "textures": "textures/blocks/calcite"
+    },
+    "framepane_dripstone_frame": {
+      "textures": "textures/blocks/dripstone_block"
+    },
+    "framepane_dripstone_handle": {
+      "textures": "textures/blocks/dripstone_block"
+    },
+    "framepane_basalt_frame": {
+      "textures": "textures/blocks/basalt_side"
+    },
+    "framepane_basalt_handle": {
+      "textures": "textures/blocks/basalt_side"
+    },
+    "framepane_polished_basalt_frame": {
+      "textures": "textures/blocks/polished_basalt_side"
+    },
+    "framepane_polished_basalt_handle": {
+      "textures": "textures/blocks/polished_basalt_side"
+    },
+    "framepane_smooth_basalt_frame": {
+      "textures": "textures/blocks/smooth_basalt"
+    },
+    "framepane_smooth_basalt_handle": {
+      "textures": "textures/blocks/smooth_basalt"
+    },
+    "framepane_blackstone_frame": {
+      "textures": "textures/blocks/blackstone"
+    },
+    "framepane_blackstone_handle": {
+      "textures": "textures/blocks/blackstone"
+    },
+    "framepane_polished_blackstone_frame": {
+      "textures": "textures/blocks/polished_blackstone"
+    },
+    "framepane_polished_blackstone_handle": {
+      "textures": "textures/blocks/polished_blackstone"
+    },
+    "framepane_polished_blackstone_bricks_frame": {
+      "textures": "textures/blocks/polished_blackstone_bricks"
+    },
+    "framepane_polished_blackstone_bricks_handle": {
+      "textures": "textures/blocks/polished_blackstone_bricks"
+    },
+    "framepane_bricks_frame": {
+      "textures": "textures/blocks/brick"
+    },
+    "framepane_bricks_handle": {
+      "textures": "textures/blocks/brick"
+    },
+    "framepane_mud_bricks_frame": {
+      "textures": "textures/blocks/mud_bricks"
+    },
+    "framepane_mud_bricks_handle": {
+      "textures": "textures/blocks/mud_bricks"
+    },
+    "framepane_packed_mud_frame": {
+      "textures": "textures/blocks/packed_mud"
+    },
+    "framepane_packed_mud_handle": {
+      "textures": "textures/blocks/packed_mud"
+    },
+    "framepane_sandstone_frame": {
+      "textures": "textures/blocks/sandstone_normal"
+    },
+    "framepane_sandstone_handle": {
+      "textures": "textures/blocks/sandstone_normal"
+    },
+    "framepane_red_sandstone_frame": {
+      "textures": "textures/blocks/red_sandstone_normal"
+    },
+    "framepane_red_sandstone_handle": {
+      "textures": "textures/blocks/red_sandstone_normal"
+    },
+    "framepane_quartz_frame": {
+      "textures": "textures/blocks/quartz_block_side"
+    },
+    "framepane_quartz_handle": {
+      "textures": "textures/blocks/quartz_block_side"
+    },
+    "framepane_nether_bricks_frame": {
+      "textures": "textures/blocks/nether_brick"
+    },
+    "framepane_nether_bricks_handle": {
+      "textures": "textures/blocks/nether_brick"
+    },
+    "framepane_red_nether_bricks_frame": {
+      "textures": "textures/blocks/red_nether_brick"
+    },
+    "framepane_red_nether_bricks_handle": {
+      "textures": "textures/blocks/red_nether_brick"
+    },
+    "framepane_end_stone_bricks_frame": {
+      "textures": "textures/blocks/end_bricks"
+    },
+    "framepane_end_stone_bricks_handle": {
+      "textures": "textures/blocks/end_bricks"
+    },
+    "framepane_prismarine_frame": {
+      "textures": "textures/blocks/prismarine_rough"
+    },
+    "framepane_prismarine_handle": {
+      "textures": "textures/blocks/prismarine_rough"
+    },
+    "framepane_dark_prismarine_frame": {
+      "textures": "textures/blocks/prismarine_dark"
+    },
+    "framepane_dark_prismarine_handle": {
+      "textures": "textures/blocks/prismarine_dark"
+    },
+    "framepane_purpur_frame": {
+      "textures": "textures/blocks/purpur_block"
+    },
+    "framepane_purpur_handle": {
+      "textures": "textures/blocks/purpur_block"
+    },
+    "framepane_amethyst_frame": {
+      "textures": "textures/blocks/amethyst_block"
+    },
+    "framepane_amethyst_handle": {
+      "textures": "textures/blocks/amethyst_block"
+    },
+    "framepane_sulfur_frame": {
+      "textures": "textures/blocks/sulfur"
+    },
+    "framepane_sulfur_handle": {
+      "textures": "textures/blocks/sulfur"
+    },
+    "framepane_sulfur_bricks_frame": {
+      "textures": "textures/blocks/sulfur_bricks"
+    },
+    "framepane_sulfur_bricks_handle": {
+      "textures": "textures/blocks/sulfur_bricks"
+    },
+    "framepane_cinnabar_frame": {
+      "textures": "textures/blocks/cinnabar"
+    },
+    "framepane_cinnabar_handle": {
+      "textures": "textures/blocks/cinnabar"
+    },
+    "framepane_cinnabar_bricks_frame": {
+      "textures": "textures/blocks/cinnabar_bricks"
+    },
+    "framepane_cinnabar_bricks_handle": {
+      "textures": "textures/blocks/cinnabar_bricks"
+    }
+  }
+}

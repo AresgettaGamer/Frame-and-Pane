@@ -1,0 +1,687 @@
+{
+  "format_version": "1.19.30",
+  "framepane:oak_window": {
+    "sound": "wood"
+  },
+  "framepane:oak_fourpane_window": {
+    "sound": "wood"
+  },
+  "framepane:oak_vertical_window": {
+    "sound": "wood"
+  },
+  "framepane:oak_vertical_fourpane_window": {
+    "sound": "wood"
+  },
+  "framepane:spruce_window": {
+    "sound": "wood"
+  },
+  "framepane:spruce_fourpane_window": {
+    "sound": "wood"
+  },
+  "framepane:spruce_vertical_window": {
+    "sound": "wood"
+  },
+  "framepane:spruce_vertical_fourpane_window": {
+    "sound": "wood"
+  },
+  "framepane:birch_window": {
+    "sound": "wood"
+  },
+  "framepane:birch_fourpane_window": {
+    "sound": "wood"
+  },
+  "framepane:birch_vertical_window": {
+    "sound": "wood"
+  },
+  "framepane:birch_vertical_fourpane_window": {
+    "sound": "wood"
+  },
+  "framepane:jungle_window": {
+    "sound": "wood"
+  },
+  "framepane:jungle_fourpane_window": {
+    "sound": "wood"
+  },
+  "framepane:jungle_vertical_window": {
+    "sound": "wood"
+  },
+  "framepane:jungle_vertical_fourpane_window": {
+    "sound": "wood"
+  },
+  "framepane:acacia_window": {
+    "sound": "wood"
+  },
+  "framepane:acacia_fourpane_window": {
+    "sound": "wood"
+  },
+  "framepane:acacia_vertical_window": {
+    "sound": "wood"
+  },
+  "framepane:acacia_vertical_fourpane_window": {
+    "sound": "wood"
+  },
+  "framepane:dark_oak_window": {
+    "sound": "wood"
+  },
+  "framepane:dark_oak_fourpane_window": {
+    "sound": "wood"
+  },
+  "framepane:dark_oak_vertical_window": {
+    "sound": "wood"
+  },
+  "framepane:dark_oak_vertical_fourpane_window": {
+    "sound": "wood"
+  },
+  "framepane:mangrove_window": {
+    "sound": "wood"
+  },
+  "framepane:mangrove_fourpane_window": {
+    "sound": "wood"
+  },
+  "framepane:mangrove_vertical_window": {
+    "sound": "wood"
+  },
+  "framepane:mangrove_vertical_fourpane_window": {
+    "sound": "wood"
+  },
+  "framepane:cherry_window": {
+    "sound": "wood"
+  },
+  "framepane:cherry_fourpane_window": {
+    "sound": "wood"
+  },
+  "framepane:cherry_vertical_window": {
+    "sound": "wood"
+  },
+  "framepane:cherry_vertical_fourpane_window": {
+    "sound": "wood"
+  },
+  "framepane:pale_oak_window": {
+    "sound": "wood"
+  },
+  "framepane:pale_oak_fourpane_window": {
+    "sound": "wood"
+  },
+  "framepane:pale_oak_vertical_window": {
+    "sound": "wood"
+  },
+  "framepane:pale_oak_vertical_fourpane_window": {
+    "sound": "wood"
+  },
+  "framepane:bamboo_window": {
+    "sound": "wood"
+  },
+  "framepane:bamboo_fourpane_window": {
+    "sound": "wood"
+  },
+  "framepane:bamboo_vertical_window": {
+    "sound": "wood"
+  },
+  "framepane:bamboo_vertical_fourpane_window": {
+    "sound": "wood"
+  },
+  "framepane:crimson_window": {
+    "sound": "wood"
+  },
+  "framepane:crimson_fourpane_window": {
+    "sound": "wood"
+  },
+  "framepane:crimson_vertical_window": {
+    "sound": "wood"
+  },
+  "framepane:crimson_vertical_fourpane_window": {
+    "sound": "wood"
+  },
+  "framepane:warped_window": {
+    "sound": "wood"
+  },
+  "framepane:warped_fourpane_window": {
+    "sound": "wood"
+  },
+  "framepane:warped_vertical_window": {
+    "sound": "wood"
+  },
+  "framepane:warped_vertical_fourpane_window": {
+    "sound": "wood"
+  },
+  "framepane:stone_window": {
+    "sound": "stone"
+  },
+  "framepane:stone_fourpane_window": {
+    "sound": "stone"
+  },
+  "framepane:stone_vertical_window": {
+    "sound": "stone"
+  },
+  "framepane:stone_vertical_fourpane_window": {
+    "sound": "stone"
+  },
+  "framepane:smooth_stone_window": {
+    "sound": "stone"
+  },
+  "framepane:smooth_stone_fourpane_window": {
+    "sound": "stone"
+  },
+  "framepane:smooth_stone_vertical_window": {
+    "sound": "stone"
+  },
+  "framepane:smooth_stone_vertical_fourpane_window": {
+    "sound": "stone"
+  },
+  "framepane:cobblestone_window": {
+    "sound": "stone"
+  },
+  "framepane:cobblestone_fourpane_window": {
+    "sound": "stone"
+  },
+  "framepane:cobblestone_vertical_window": {
+    "sound": "stone"
+  },
+  "framepane:cobblestone_vertical_fourpane_window": {
+    "sound": "stone"
+  },
+  "framepane:mossy_cobblestone_window": {
+    "sound": "stone"
+  },
+  "framepane:mossy_cobblestone_fourpane_window": {
+    "sound": "stone"
+  },
+  "framepane:mossy_cobblestone_vertical_window": {
+    "sound": "stone"
+  },
+  "framepane:mossy_cobblestone_vertical_fourpane_window": {
+    "sound": "stone"
+  },
+  "framepane:stone_bricks_window": {
+    "sound": "stone"
+  },
+  "framepane:stone_bricks_fourpane_window": {
+    "sound": "stone"
+  },
+  "framepane:stone_bricks_vertical_window": {
+    "sound": "stone"
+  },
+  "framepane:stone_bricks_vertical_fourpane_window": {
+    "sound": "stone"
+  },
+  "framepane:mossy_stone_bricks_window": {
+    "sound": "stone"
+  },
+  "framepane:mossy_stone_bricks_fourpane_window": {
+    "sound": "stone"
+  },
+  "framepane:mossy_stone_bricks_vertical_window": {
+    "sound": "stone"
+  },
+  "framepane:mossy_stone_bricks_vertical_fourpane_window": {
+    "sound": "stone"
+  },
+  "framepane:granite_window": {
+    "sound": "stone"
+  },
+  "framepane:granite_fourpane_window": {
+    "sound": "stone"
+  },
+  "framepane:granite_vertical_window": {
+    "sound": "stone"
+  },
+  "framepane:granite_vertical_fourpane_window": {
+    "sound": "stone"
+  },
+  "framepane:polished_granite_window": {
+    "sound": "stone"
+  },
+  "framepane:polished_granite_fourpane_window": {
+    "sound": "stone"
+  },
+  "framepane:polished_granite_vertical_window": {
+    "sound": "stone"
+  },
+  "framepane:polished_granite_vertical_fourpane_window": {
+    "sound": "stone"
+  },
+  "framepane:diorite_window": {
+    "sound": "stone"
+  },
+  "framepane:diorite_fourpane_window": {
+    "sound": "stone"
+  },
+  "framepane:diorite_vertical_window": {
+    "sound": "stone"
+  },
+  "framepane:diorite_vertical_fourpane_window": {
+    "sound": "stone"
+  },
+  "framepane:polished_diorite_window": {
+    "sound": "stone"
+  },
+  "framepane:polished_diorite_fourpane_window": {
+    "sound": "stone"
+  },
+  "framepane:polished_diorite_vertical_window": {
+    "sound": "stone"
+  },
+  "framepane:polished_diorite_vertical_fourpane_window": {
+    "sound": "stone"
+  },
+  "framepane:andesite_window": {
+    "sound": "stone"
+  },
+  "framepane:andesite_fourpane_window": {
+    "sound": "stone"
+  },
+  "framepane:andesite_vertical_window": {
+    "sound": "stone"
+  },
+  "framepane:andesite_vertical_fourpane_window": {
+    "sound": "stone"
+  },
+  "framepane:polished_andesite_window": {
+    "sound": "stone"
+  },
+  "framepane:polished_andesite_fourpane_window": {
+    "sound": "stone"
+  },
+  "framepane:polished_andesite_vertical_window": {
+    "sound": "stone"
+  },
+  "framepane:polished_andesite_vertical_fourpane_window": {
+    "sound": "stone"
+  },
+  "framepane:deepslate_window": {
+    "sound": "stone"
+  },
+  "framepane:deepslate_fourpane_window": {
+    "sound": "stone"
+  },
+  "framepane:deepslate_vertical_window": {
+    "sound": "stone"
+  },
+  "framepane:deepslate_vertical_fourpane_window": {
+    "sound": "stone"
+  },
+  "framepane:cobbled_deepslate_window": {
+    "sound": "stone"
+  },
+  "framepane:cobbled_deepslate_fourpane_window": {
+    "sound": "stone"
+  },
+  "framepane:cobbled_deepslate_vertical_window": {
+    "sound": "stone"
+  },
+  "framepane:cobbled_deepslate_vertical_fourpane_window": {
+    "sound": "stone"
+  },
+  "framepane:polished_deepslate_window": {
+    "sound": "stone"
+  },
+  "framepane:polished_deepslate_fourpane_window": {
+    "sound": "stone"
+  },
+  "framepane:polished_deepslate_vertical_window": {
+    "sound": "stone"
+  },
+  "framepane:polished_deepslate_vertical_fourpane_window": {
+    "sound": "stone"
+  },
+  "framepane:deepslate_bricks_window": {
+    "sound": "stone"
+  },
+  "framepane:deepslate_bricks_fourpane_window": {
+    "sound": "stone"
+  },
+  "framepane:deepslate_bricks_vertical_window": {
+    "sound": "stone"
+  },
+  "framepane:deepslate_bricks_vertical_fourpane_window": {
+    "sound": "stone"
+  },
+  "framepane:deepslate_tiles_window": {
+    "sound": "stone"
+  },
+  "framepane:deepslate_tiles_fourpane_window": {
+    "sound": "stone"
+  },
+  "framepane:deepslate_tiles_vertical_window": {
+    "sound": "stone"
+  },
+  "framepane:deepslate_tiles_vertical_fourpane_window": {
+    "sound": "stone"
+  },
+  "framepane:tuff_window": {
+    "sound": "stone"
+  },
+  "framepane:tuff_fourpane_window": {
+    "sound": "stone"
+  },
+  "framepane:tuff_vertical_window": {
+    "sound": "stone"
+  },
+  "framepane:tuff_vertical_fourpane_window": {
+    "sound": "stone"
+  },
+  "framepane:polished_tuff_window": {
+    "sound": "stone"
+  },
+  "framepane:polished_tuff_fourpane_window": {
+    "sound": "stone"
+  },
+  "framepane:polished_tuff_vertical_window": {
+    "sound": "stone"
+  },
+  "framepane:polished_tuff_vertical_fourpane_window": {
+    "sound": "stone"
+  },
+  "framepane:tuff_bricks_window": {
+    "sound": "stone"
+  },
+  "framepane:tuff_bricks_fourpane_window": {
+    "sound": "stone"
+  },
+  "framepane:tuff_bricks_vertical_window": {
+    "sound": "stone"
+  },
+  "framepane:tuff_bricks_vertical_fourpane_window": {
+    "sound": "stone"
+  },
+  "framepane:calcite_window": {
+    "sound": "stone"
+  },
+  "framepane:calcite_fourpane_window": {
+    "sound": "stone"
+  },
+  "framepane:calcite_vertical_window": {
+    "sound": "stone"
+  },
+  "framepane:calcite_vertical_fourpane_window": {
+    "sound": "stone"
+  },
+  "framepane:dripstone_window": {
+    "sound": "stone"
+  },
+  "framepane:dripstone_fourpane_window": {
+    "sound": "stone"
+  },
+  "framepane:dripstone_vertical_window": {
+    "sound": "stone"
+  },
+  "framepane:dripstone_vertical_fourpane_window": {
+    "sound": "stone"
+  },
+  "framepane:basalt_window": {
+    "sound": "stone"
+  },
+  "framepane:basalt_fourpane_window": {
+    "sound": "stone"
+  },
+  "framepane:basalt_vertical_window": {
+    "sound": "stone"
+  },
+  "framepane:basalt_vertical_fourpane_window": {
+    "sound": "stone"
+  },
+  "framepane:polished_basalt_window": {
+    "sound": "stone"
+  },
+  "framepane:polished_basalt_fourpane_window": {
+    "sound": "stone"
+  },
+  "framepane:polished_basalt_vertical_window": {
+    "sound": "stone"
+  },
+  "framepane:polished_basalt_vertical_fourpane_window": {
+    "sound": "stone"
+  },
+  "framepane:smooth_basalt_window": {
+    "sound": "stone"
+  },
+  "framepane:smooth_basalt_fourpane_window": {
+    "sound": "stone"
+  },
+  "framepane:smooth_basalt_vertical_window": {
+    "sound": "stone"
+  },
+  "framepane:smooth_basalt_vertical_fourpane_window": {
+    "sound": "stone"
+  },
+  "framepane:blackstone_window": {
+    "sound": "stone"
+  },
+  "framepane:blackstone_fourpane_window": {
+    "sound": "stone"
+  },
+  "framepane:blackstone_vertical_window": {
+    "sound": "stone"
+  },
+  "framepane:blackstone_vertical_fourpane_window": {
+    "sound": "stone"
+  },
+  "framepane:polished_blackstone_window": {
+    "sound": "stone"
+  },
+  "framepane:polished_blackstone_fourpane_window": {
+    "sound": "stone"
+  },
+  "framepane:polished_blackstone_vertical_window": {
+    "sound": "stone"
+  },
+  "framepane:polished_blackstone_vertical_fourpane_window": {
+    "sound": "stone"
+  },
+  "framepane:polished_blackstone_bricks_window": {
+    "sound": "stone"
+  },
+  "framepane:polished_blackstone_bricks_fourpane_window": {
+    "sound": "stone"
+  },
+  "framepane:polished_blackstone_bricks_vertical_window": {
+    "sound": "stone"
+  },
+  "framepane:polished_blackstone_bricks_vertical_fourpane_window": {
+    "sound": "stone"
+  },
+  "framepane:bricks_window": {
+    "sound": "stone"
+  },
+  "framepane:bricks_fourpane_window": {
+    "sound": "stone"
+  },
+  "framepane:bricks_vertical_window": {
+    "sound": "stone"
+  },
+  "framepane:bricks_vertical_fourpane_window": {
+    "sound": "stone"
+  },
+  "framepane:mud_bricks_window": {
+    "sound": "stone"
+  },
+  "framepane:mud_bricks_fourpane_window": {
+    "sound": "stone"
+  },
+  "framepane:mud_bricks_vertical_window": {
+    "sound": "stone"
+  },
+  "framepane:mud_bricks_vertical_fourpane_window": {
+    "sound": "stone"
+  },
+  "framepane:packed_mud_window": {
+    "sound": "stone"
+  },
+  "framepane:packed_mud_fourpane_window": {
+    "sound": "stone"
+  },
+  "framepane:packed_mud_vertical_window": {
+    "sound": "stone"
+  },
+  "framepane:packed_mud_vertical_fourpane_window": {
+    "sound": "stone"
+  },
+  "framepane:sandstone_window": {
+    "sound": "stone"
+  },
+  "framepane:sandstone_fourpane_window": {
+    "sound": "stone"
+  },
+  "framepane:sandstone_vertical_window": {
+    "sound": "stone"
+  },
+  "framepane:sandstone_vertical_fourpane_window": {
+    "sound": "stone"
+  },
+  "framepane:red_sandstone_window": {
+    "sound": "stone"
+  },
+  "framepane:red_sandstone_fourpane_window": {
+    "sound": "stone"
+  },
+  "framepane:red_sandstone_vertical_window": {
+    "sound": "stone"
+  },
+  "framepane:red_sandstone_vertical_fourpane_window": {
+    "sound": "stone"
+  },
+  "framepane:quartz_window": {
+    "sound": "stone"
+  },
+  "framepane:quartz_fourpane_window": {
+    "sound": "stone"
+  },
+  "framepane:quartz_vertical_window": {
+    "sound": "stone"
+  },
+  "framepane:quartz_vertical_fourpane_window": {
+    "sound": "stone"
+  },
+  "framepane:nether_bricks_window": {
+    "sound": "stone"
+  },
+  "framepane:nether_bricks_fourpane_window": {
+    "sound": "stone"
+  },
+  "framepane:nether_bricks_vertical_window": {
+    "sound": "stone"
+  },
+  "framepane:nether_bricks_vertical_fourpane_window": {
+    "sound": "stone"
+  },
+  "framepane:red_nether_bricks_window": {
+    "sound": "stone"
+  },
+  "framepane:red_nether_bricks_fourpane_window": {
+    "sound": "stone"
+  },
+  "framepane:red_nether_bricks_vertical_window": {
+    "sound": "stone"
+  },
+  "framepane:red_nether_bricks_vertical_fourpane_window": {
+    "sound": "stone"
+  },
+  "framepane:end_stone_bricks_window": {
+    "sound": "stone"
+  },
+  "framepane:end_stone_bricks_fourpane_window": {
+    "sound": "stone"
+  },
+  "framepane:end_stone_bricks_vertical_window": {
+    "sound": "stone"
+  },
+  "framepane:end_stone_bricks_vertical_fourpane_window": {
+    "sound": "stone"
+  },
+  "framepane:prismarine_window": {
+    "sound": "stone"
+  },
+  "framepane:prismarine_fourpane_window": {
+    "sound": "stone"
+  },
+  "framepane:prismarine_vertical_window": {
+    "sound": "stone"
+  },
+  "framepane:prismarine_vertical_fourpane_window": {
+    "sound": "stone"
+  },
+  "framepane:dark_prismarine_window": {
+    "sound": "stone"
+  },
+  "framepane:dark_prismarine_fourpane_window": {
+    "sound": "stone"
+  },
+  "framepane:dark_prismarine_vertical_window": {
+    "sound": "stone"
+  },
+  "framepane:dark_prismarine_vertical_fourpane_window": {
+    "sound": "stone"
+  },
+  "framepane:purpur_window": {
+    "sound": "stone"
+  },
+  "framepane:purpur_fourpane_window": {
+    "sound": "stone"
+  },
+  "framepane:purpur_vertical_window": {
+    "sound": "stone"
+  },
+  "framepane:purpur_vertical_fourpane_window": {
+    "sound": "stone"
+  },
+  "framepane:amethyst_window": {
+    "sound": "stone"
+  },
+  "framepane:amethyst_fourpane_window": {
+    "sound": "stone"
+  },
+  "framepane:amethyst_vertical_window": {
+    "sound": "stone"
+  },
+  "framepane:amethyst_vertical_fourpane_window": {
+    "sound": "stone"
+  },
+  "framepane:sulfur_window": {
+    "sound": "stone"
+  },
+  "framepane:sulfur_fourpane_window": {
+    "sound": "stone"
+  },
+  "framepane:sulfur_vertical_window": {
+    "sound": "stone"
+  },
+  "framepane:sulfur_vertical_fourpane_window": {
+    "sound": "stone"
+  },
+  "framepane:sulfur_bricks_window": {
+    "sound": "stone"
+  },
+  "framepane:sulfur_bricks_fourpane_window": {
+    "sound": "stone"
+  },
+  "framepane:sulfur_bricks_vertical_window": {
+    "sound": "stone"
+  },
+  "framepane:sulfur_bricks_vertical_fourpane_window": {
+    "sound": "stone"
+  },
+  "framepane:cinnabar_window": {
+    "sound": "stone"
+  },
+  "framepane:cinnabar_fourpane_window": {
+    "sound": "stone"
+  },
+  "framepane:cinnabar_vertical_window": {
+    "sound": "stone"
+  },
+  "framepane:cinnabar_vertical_fourpane_window": {
+    "sound": "stone"
+  },
+  "framepane:cinnabar_bricks_window": {
+    "sound": "stone"
+  },
+  "framepane:cinnabar_bricks_fourpane_window": {
+    "sound": "stone"
+  },
+  "framepane:cinnabar_bricks_vertical_window": {
+    "sound": "stone"
+  },
+  "framepane:cinnabar_bricks_vertical_fourpane_window": {
+    "sound": "stone"
+  }
+}

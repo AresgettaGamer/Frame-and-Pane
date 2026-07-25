@@ -1,0 +1,38 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "Frame & Pane RP — Release v1.0.0",
+    "description": "Visual resources for Frame & Pane window frames and insertable glass panels.",
+    "uuid": "09c7327f-4441-4925-a99f-2b0e134e9ec2",
+    "version": [
+      1,
+      0,
+      0
+    ],
+    "min_engine_version": [
+      1,
+      26,
+      30
+    ]
+  },
+  "modules": [
+    {
+      "type": "resources",
+      "uuid": "d10cab5e-a891-48b0-95f2-3149ef0f83e3",
+      "version": [
+        1,
+        0,
+        0
+      ]
+    }
+  ],
+  "metadata": {
+    "authors": [
+      "AresgettaYT"
+    ],
+    "product_type": "addon"
+  },
+  "capabilities": [
+    "pbr"
+  ]
+}
