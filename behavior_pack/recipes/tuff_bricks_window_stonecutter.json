@@ -1,0 +1,27 @@
+{
+  "format_version": "1.20.10",
+  "minecraft:recipe_shapeless": {
+    "description": {
+      "identifier": "framepane:tuff_bricks_window_stonecutter"
+    },
+    "tags": [
+      "stonecutter"
+    ],
+    "priority": 0,
+    "ingredients": [
+      {
+        "item": "minecraft:tuff_bricks",
+        "count": 1
+      }
+    ],
+    "result": {
+      "item": "framepane:tuff_bricks_window",
+      "count": 1
+    },
+    "unlock": [
+      {
+        "item": "minecraft:tuff_bricks"
+      }
+    ]
+  }
+}

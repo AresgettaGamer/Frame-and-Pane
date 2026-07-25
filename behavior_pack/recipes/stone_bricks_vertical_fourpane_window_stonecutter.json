@@ -1,0 +1,27 @@
+{
+  "format_version": "1.20.10",
+  "minecraft:recipe_shapeless": {
+    "description": {
+      "identifier": "framepane:stone_bricks_vertical_fourpane_window_stonecutter"
+    },
+    "tags": [
+      "stonecutter"
+    ],
+    "priority": 0,
+    "ingredients": [
+      {
+        "item": "minecraft:stone_bricks",
+        "count": 1
+      }
+    ],
+    "result": {
+      "item": "framepane:stone_bricks_vertical_fourpane_window",
+      "count": 1
+    },
+    "unlock": [
+      {
+        "item": "minecraft:stone_bricks"
+      }
+    ]
+  }
+}

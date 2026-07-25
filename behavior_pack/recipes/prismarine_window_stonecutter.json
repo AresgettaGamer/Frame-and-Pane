@@ -1,0 +1,27 @@
+{
+  "format_version": "1.20.10",
+  "minecraft:recipe_shapeless": {
+    "description": {
+      "identifier": "framepane:prismarine_window_stonecutter"
+    },
+    "tags": [
+      "stonecutter"
+    ],
+    "priority": 0,
+    "ingredients": [
+      {
+        "item": "minecraft:prismarine",
+        "count": 1
+      }
+    ],
+    "result": {
+      "item": "framepane:prismarine_window",
+      "count": 1
+    },
+    "unlock": [
+      {
+        "item": "minecraft:prismarine"
+      }
+    ]
+  }
+}

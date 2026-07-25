@@ -1,0 +1,27 @@
+{
+  "format_version": "1.20.10",
+  "minecraft:recipe_shapeless": {
+    "description": {
+      "identifier": "framepane:spruce_fourpane_window_stonecutter"
+    },
+    "tags": [
+      "stonecutter"
+    ],
+    "priority": 0,
+    "ingredients": [
+      {
+        "item": "minecraft:spruce_planks",
+        "count": 1
+      }
+    ],
+    "result": {
+      "item": "framepane:spruce_fourpane_window",
+      "count": 1
+    },
+    "unlock": [
+      {
+        "item": "minecraft:spruce_planks"
+      }
+    ]
+  }
+}
